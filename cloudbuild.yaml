@@ -10,5 +10,5 @@ steps:
          'slack-billing-notification', 
          '--entry-point=notifySlack',
          '--source=.', 
-         '--runtime=nodejs8', 
+         '--runtime=nodejs16', 
          '--trigger-topic=billing-alert']
